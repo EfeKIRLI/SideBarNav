@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #FFE5CA;
+}
+nav{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow:0 20px 35px rgba(0, 0, 0, 1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+}
+
+.logo span {
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: 12px ;
+    text-transform: uppercase;
+    text-align: center;
+}
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 16px;
+    display: table;
+    width: 300px;
+    padding: 20px;
+}
+.material-symbols-outlined{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #eee;
+}
+nav:hover {
+    width: 300px;
+    transition: all 0.6s ease;
+}
+
+.Logout {
+    position: absolute;
+    bottom: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .h2 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    width: 100vh;
+    border-radius: 30px;
+    
+}
+h2:hover {
+    background: yellow;
+    transform: translateY(-20%);
+    /* animation: shake 0.3s; */
+
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    /* transform: rotate(180deg); */
+    
+}
